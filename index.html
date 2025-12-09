@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Responsivo - GitHub Pages</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>DevResponsivo</span>
+                </div>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#caracteristicas">Características</a></li>
+                    <li><a href="#tecnologias">Tecnologías</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Desarrollo Web Responsivo</h1>
+                    <p>Implementando todas las técnicas modernas de CSS: Flexbox, Grid, Media Queries y más.</p>
+                    <a href="#tecnologias" class="btn">Ver tecnologías</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Desarrollo web">
+                </div>
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="features">
+            <div class="container">
+                <h2>Características Implementadas</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile First</h3>
+                        <p>Diseño que prioriza dispositivos móviles y se adapta a pantallas grandes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-th"></i>
+                        <h3>CSS Grid & Flexbox</h3>
+                        <p>Uso de las técnicas más modernas para layouts flexibles y eficientes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>Variables CSS</h3>
+                        <p>Personalización mediante variables CSS para fácil mantenimiento.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>GitHub Pages</h3>
+                        <p>Despliegue automático y hosting gratuito directamente desde GitHub.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias" class="technologies">
+            <div class="container">
+                <h2>Tecnologías Utilizadas</h2>
+                <div class="tech-list">
+                    <div class="tech-item">HTML5</div>
+                    <div class="tech-item">CSS3</div>
+                    <div class="tech-item">Flexbox</div>
+                    <div class="tech-item">CSS Grid</div>
+                    <div class="tech-item">Media Queries</div>
+                    <div class="tech-item">Git</div>
+                    <div class="tech-item">GitHub Pages</div>
+                    <div class="tech-item">JavaScript</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <p>Este sitio es un ejemplo de implementación responsiva para la materia.</p>
+                <div class="contact-info">
+                    <p><i class="fas fa-user-graduate"></i> Estudiante de Desarrollo Web</p>
+                    <p><i class="fas fa-university"></i> Materia: Desarrollo Frontend</p>
+                    <p><i class="fas fa-calendar-alt"></i> Fecha: <span id="current-date"></span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> Desarrollo Responsivo - Todos los derechos reservados</p>
+            <p>Desplegado con ❤️ usando GitHub Pages</p>
+            <div class="footer-links">
+                <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                <a href="#"><i class="fas fa-link"></i> Enlace del sitio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
